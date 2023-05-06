@@ -1,0 +1,17 @@
+Recebendo a seguinte demanda como Engenheiro de Dados: 
+
+construir um processo capaz de ler os dados de entrada e entregar respostas às perguntas abaixo:
+
+1- Qual o artista e o comprimento (tempo) da música do sessionId igual a 436 e itemInSession igual a 12?
+2- Quais músicas o usuário do userid igual a 54 e sessionid igual a 616 ouviu? Retorne o nome do artista, o nome da música e nome e sobrenome do usuário.
+3- Quais usuários ouviram a música 'The Rhythm Of The Night'?
+
+Os dados de entrada estão disponíveis no diretório dados/ em 30 arquivos CSV com dados sobre a música, o artista, o tempo da música, o username o usuário, id do usuário, 
+id da sessão e id do item em uma sessão (cada sessão pode ter diversos itens).
+
+Os dados contêm detalhes de músicas e usuários que acessaram as músicas em portais na internet. Os dados estão no formato bruto e podem conter mais informação do que 
+necessário. 
+
+Para resolver esse problema construí um pipeline de dados em Python para realizar o processo ETL. 
+Dentro do pipeline usei o Apache Cassandra para a etapa do Analytics. 
+O resultado será gravado em arquivos no formato CSV.
