@@ -8,7 +8,7 @@ from pipeline import conecta_cluster
 
 
 
-# EXTRAÇÃO!!
+# EXTRAÇÃO!
 
 # Função para consolidar(processar) os arquivos de entrada em um único arquivo
 # Processo os 30 arquivos colocando todos os dados dos arquivos em uma lista (na memoria do computador)
